@@ -1,0 +1,6 @@
+{
+  "name": "Кофейный Сомелье",
+  "description": "Онлайн-консультант кофейного магазина свежей обжарки с умным подбором сортов, базой знаний и оплатой заказов.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
