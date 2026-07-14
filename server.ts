@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Google Sheet URLs
 const SPREADSHEET_ID = "1SKdhOx3xt8SHBo5xeJhXdOj48QLN7zkQt_61moUiN7k";
